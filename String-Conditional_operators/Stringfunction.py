@@ -1,0 +1,16 @@
+str = "i am aniruddh sharma, i am 19 years old, currently i am doing IMCA course from acropolis collage"
+# Endwith function.........
+print(str.endswith("collage")) # For true value
+print(str.endswith("Accropolis")) # For false value
+
+# Capitalize functon...........
+print(str.capitalize()) # Capitalizes the 1st char
+
+# Replace function.........
+print(str.replace("19", "20")) # replaces the value
+
+# Find function..........
+print(str.find("IMCA")) # Give the str(value) from where the word is started
+
+# Count function........
+print(str.count("IMCA"))
